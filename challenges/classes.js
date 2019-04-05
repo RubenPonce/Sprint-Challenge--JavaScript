@@ -47,6 +47,7 @@ console.log(cuboid.volume()); // 100
 console.log(cuboid.surfaceArea()); // 130
 
 const cube = new CubeMaker(5, 5, 5)
+console.log(cube);
 console.log(cube.volume());
 console.log(cube.surfaceArea());
 
