@@ -7,7 +7,7 @@
   * In the body of the function return the callback with the two parameters that you created
 */
 console.group('functions.js')
-const consume = (param1, param2, cb)=> {
+const consume = (param1, param2, cb) => {
   return console.log(cb(param1, param2));
 }
 
@@ -16,9 +16,9 @@ const consume = (param1, param2, cb)=> {
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-const add = (num1,num2)=> num1+num2
-const multiply = (num1,num2)=> num1*num2
-const greeting = (fName,lName)=> `Hello ${fName} ${lName}`;
+const add = (num1, num2) => num1 + num2
+const multiply = (num1, num2) => num1 * num2
+const greeting = (fName, lName) => `Hello ${fName} ${lName}`;
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // consume(2,2,add); // 4
